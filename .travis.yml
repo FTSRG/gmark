@@ -1,6 +1,5 @@
 language: cpp
-install:
+script:
   - cd demo/scripts
   - ./compile-all.sh
-  - cd ../..
   - ./social.sh
