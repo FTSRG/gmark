@@ -2,3 +2,5 @@ language: cpp
 install:
   - cd demo/scripts
   - ./compile-all.sh
+  - cd ../..
+  - ./social.sh
